@@ -1,5 +1,5 @@
 {
-  "name": "your-advanced-package-name",
+  "name": "@morningstarxcdcode/your-advanced-package-name",
   "version": "1.0.0",
   "description": "An advanced package built for developers who want cutting-edge tools.",
   "main": "index.js",
@@ -14,9 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/morningstarxcdcode/packageno1.git"
+    "url": "git+https://github.com/morningstarxcdcode/packageno1.git"
   },
-  "keywords": ["advanced", "developer-tools", "cutting-edge", "automation"],
+  "keywords": [
+    "advanced",
+    "developer-tools",
+    "cutting-edge",
+    "automation"
+  ],
   "author": "Morningstar",
   "license": "MIT",
   "bugs": {
@@ -38,5 +43,10 @@
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
   }
 }
